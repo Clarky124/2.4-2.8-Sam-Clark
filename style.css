@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+span {
+  padding-left: 10px;
+  position: fixed;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1111;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 1s;
+}
+
+#big {
+  text-align: center;
+  font-size: 100px;
+  margin: 0 auto;
+  color: white;
+  padding-top: 100px;
+  font-family: oswald;
+}
+
+.overlaycontent {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 1s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: cyan;
+}
+
+.overlay .closebutton {
+  position: absolute;
+  top: 25px;
+  right: 45px;
+  font-size: 60px;
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+#a {
+  height: 100vh;
+  box-shadow: 10px 10px 8px #888888;
+  background-image: url(lines.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  box-sizing:border-box;
+}
+
+.title {
+  font-size: 100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+  font-family: oswald;
+}
+
+.description {
+  font-size: 20px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#b {
+  color: white;
+  height: 100vh;
+  box-shadow: 10px 10px 8px #888888;
+  background-image: url(two.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.space {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.list {
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 140px;
+}
+
+#c {
+  height: 600px;
+  background-image: url(board.jpg);
+  background-position: center;
+  background-size: cover;
+  color: black;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.history {
+  text-align: right;
+  padding-top: 150px;
+  padding-right: 50px;
+}
+
+.explain {
+  display: block;
+  text-align: right;
+  width: 300px;
+  padding-left: 80%;
+}

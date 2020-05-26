@@ -4,9 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
   <title>AI</title>
 </head>
 <body>
-  <h1>Hello World</h1>
+
+
+  <div id = "myNav" class = "overlay">
+    <a href="javascript:void(0)" class = "closebutton" onclick = "closeNav()">&times;</a>
+    <h1 id = "big">Artificial Intelligence</h1>
+    <div class="overlaycontent">
+      <a href="#">HOME</a>
+      <a href="#">ALEXA</a>
+      <a href="#">SIRI</a>
+      <a href="#">CORTANA</a>
+      <a href="#">HISTORY</a>
+    </div>
+  </div>
+
+
+  <section id = "a" class="panel">
+    <div class="lines">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+    <h1 class="title">Artificial Intelligence</h1>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit itaque iste recusandae dolor placeat id, suscipit vel, corporis voluptatibus expedita perferendis tempore doloremque rerum dolorum quidem dolore officiis possimus esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, architecto perspiciatis perferendis vel quos ipsa facere dolorum totam iusto ipsam, error neque iure, sint officiis atque unde, dolore commodi at!</p>
+  </section>
+
+
+  <section id = "b" class="panel">
+    <div class = "space">
+      <ul class = "list">
+        <li><h1>Alexa</h1></li>
+        <li><h1>Siri</h1></li>
+        <li><h1>Cortana</h1></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id = "c" class="panel">
+    <h1 class = "history">History of AI</h1>
+    <p = class = "explain">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime perferendis nesciunt, at voluptate explicabo quo debitis ipsa temporibus excepturi! Tempore eius laboriosam, voluptates libero ratione tenetur cumque, atque. Voluptas, aliquam.</p>
+
+  </section>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
+
 </body>
 </html>
