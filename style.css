@@ -1,13 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
-span {
-  padding-left: 10px;
-  position: fixed;
-}
 
 .overlay {
   height: 0%;
@@ -63,9 +59,15 @@ button {
   font-size: 20px;
   cursor: pointer;
   background-color: #111;
-  color: white;
+  color: lightgrey;
   padding: 10px 15px;
   border: none;
+}
+
+span {
+  top: 25px;
+  left: 45px;
+  position: fixed;
 }
 
 span:hover {
@@ -89,15 +91,17 @@ span:hover {
   margin: 0 auto;
   text-align: center;
   padding: 100px;
+  padding-bottom: 20px;
   font-family: oswald;
 }
 
 .description {
-  font-size: 20px;
+  font-size: 25px;
   width: 500px;
   margin: 0 auto;
   text-align: center;
   padding: 100px;
+  padding-top: 20px;
 }
 
 #b {
@@ -157,19 +161,44 @@ span:hover {
 .history {
   text-align: right;
   padding-top: 200px;
-  padding-right: 100px;
 }
 
 .explain {
   text-align: right;
-  width: 300px;
-  padding-left: 76%;
-  padding-right: 100px;
+  padding-left: 75%;
+}
+
+.hlink {
+  text-decoration: none;
+  text-decoration: right;
+  padding-left: 75%;
+}
+
+.contact {
+  text-align: center;
+  padding: 100px;
+}
+
+.contact_header {
+    color: dodgerblue;
+    font-size: 50px;
 }
 
 footer {
-  font-family: 'Montserrat', sans-serif;
   background-color: dodgerblue;
   color: white;
   padding: 40px 150px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .container p {
+    padding: 40px;
+  }
+  .box {
+    height: 100%;
+  }
 }
