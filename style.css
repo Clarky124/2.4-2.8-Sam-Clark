@@ -4,7 +4,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .overlay {
   height: 0%;
   width: 100%;
@@ -68,6 +67,7 @@ span {
   top: 25px;
   left: 45px;
   position: fixed;
+  color: lightgrey;
 }
 
 span:hover {
@@ -87,17 +87,17 @@ span:hover {
 }
 
 .title {
+  text-align: center;
   font-size: 100px;
   margin: 0 auto;
-  text-align: center;
-  padding: 100px;
-  padding-bottom: 20px;
+  color: white;
+  padding-top: 100px;
   font-family: oswald;
 }
 
 .description {
   font-size: 25px;
-  width: 500px;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
   padding: 100px;
@@ -106,7 +106,7 @@ span:hover {
 
 #b {
   color: white;
-  height: 100vh;
+  height: 115vh;
   box-shadow: 10px 10px 8px #888888;
   background-color: black;
 }
@@ -147,6 +147,19 @@ span:hover {
 
 .ilink {
   padding: 20px;
+  margin: 50px;
+  border-radius: 100px;
+  background-color: black;
+}
+
+.ilink:hover {
+  background-color: dodgerblue;
+  transition: 1s;
+}
+
+a {
+  text-decoration: none;
+  color: white
 }
 
 #c {
@@ -159,30 +172,42 @@ span:hover {
 }
 
 .history {
-  text-align: right;
+  position: absolute;
+  right: 0;
   padding-top: 200px;
+  padding-right: 50px;
 }
 
 .explain {
+  position: absolute;
+  right: 0;
+  padding-top: 240px;
   text-align: right;
-  padding-left: 75%;
+  width: 400px;
+  padding-right: 50px;
 }
 
 .hlink {
   text-decoration: none;
-  text-decoration: right;
-  padding-left: 75%;
+  position: absolute;
+  right: 0;
+  padding-top: 400px;
+  text-align: right;
+  width: 400px;
+  padding-right: 50px;
 }
 
 .contact {
   text-align: center;
-  padding: 100px;
+  padding: 80px;
 }
 
 .contact_header {
-    color: dodgerblue;
-    font-size: 50px;
+  color: dodgerblue;
+  font-size: 50px;
 }
+
+
 
 footer {
   background-color: dodgerblue;
@@ -194,11 +219,74 @@ footer {
   .container {
     margin-left: 50px;
     margin-right: 50px;
+    grid-template-columns: 1fr;
   }
   .container p {
     padding: 40px;
   }
   .box {
-    height: 100%;
+    height: 94%;
+  }
+
+  #b {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .explain {
+    width: 200px;
+  }
+  .hink {
+    padding-top: 1200px;
+  }
+  .contact{
+    padding: 50px;
+  }
+  #big {
+    padding-top: 75px;
+  }
+  .title {
+    padding-top: 75px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .description {
+    font-size: 16px;
+  }
+  #c {
+    background-image: none;
+    background-color: white;
+  }
+
+  .history {
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: 0;
+    right: 0;
+
+  }
+
+  .explain {
+    text-align: center;
+    padding-top: 400px;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: auto;
+    right: auto;
+  }
+
+  .hlink {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 800px;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: auto;
+    right: auto;
+    color: black;
   }
 }
