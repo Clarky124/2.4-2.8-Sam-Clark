@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylea.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <title>AI</title>
+</head>
+<body>
+
+
+  <div id = "myNav" class = "overlay">
+    <a href="javascript:void(0)" class = "closebutton" onclick = "closeNav()">&times;</a>
+    <h1 id = "big">Artificial Intelligence</h1>
+    <div class="overlaycontent">
+      <a href="index.html">HOME</a>
+      <a href="alexa.html">ALEXA</a>
+      <a href="siri.html">SIRI</a>
+      <a href="cortana.html">CORTANA</a>
+      <a href="#">HISTORY</a>
+    </div>
+  </div>
+
+
+  <section id = "a" class="panel">
+    <div class="lines">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+    <h1 class="title">Amazon Alexa</h1>
+    <p class="description"><br>Alexa is an AI developed by Amazon in 2014. It's an extremly smart AI that is commonly used on smart home speakers like the Amazon Echo and the Sonos One.</br> <br>Alexa has grown to be a very well known name in lots of households, with nearly a quater of homes in the US with some sort of device that supports Alexa.</br></p>
+  </section>
+
+
+  <section id = "b" class="panel">
+    <div class = "container">
+      <div id = "alexa" class = "box">
+        <h1>About</h1>
+        <p>Alexa is capable of doing many things, from simple tasks like playing music and reading out the weather, to more complex thing like reading out the latest national and world headlines and answering questions using Google. People in certain countries can even order online shopping with Alexa using Amazon's online shopping service.</p>
+        <h2 class = "ilink">
+          <a href="https://www.amazon.com/b?ie=UTF8&node=17934671011">Click here to learn more about Alexa...</a>
+        </h2>
+        <img src="alexa.png" alt="alexa image">
+      </div>
+
+      <div id = "devices" class = "box">
+        <h1>Devices</h1>
+        <p>Alexa started off in 2014 on the Amazon Echo speaker, over time it has made it's way to many other devices, such as speaker systems, phones, TVs, watches, and smart home systems. Alexa can do many thing all of these devices like turn on a movie on Netflix on your TV or even close the curtains and turn off the lights if you have a smart home.</p>
+        <h2 class = "ilink">
+          <a href="https://www.amazon.com/smart-home-devices/b?ie=UTF8&node=9818047011">Click here to view devices that support Alexa...</a>
+        </h2>
+        <img src="devices.png" alt="alexa image">
+      </div>
+    </div>
+  </section>
+
+  <section id = "d" class = "contact">
+    <h1 class = "contact_header">CONTACT</h1>
+    <iframe id = "form" src="https://docs.google.com/forms/d/e/1FAIpQLSetiBL7zzIBk61r9zhRrY2mqTAyYtpi0NueJ4MALcoGG80I0w/viewform?embedded=true" width="540" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+  </section>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
+  <footer>
+		<p>&copy; Sam Clark 2020. All rights reserved</p>
+  </footer>
+
+
+</body>
+</html>

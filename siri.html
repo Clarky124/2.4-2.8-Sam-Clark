@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <title>AI</title>
+</head>
+<body>
+
+
+  <div id = "myNav" class = "overlay">
+    <a href="javascript:void(0)" class = "closebutton" onclick = "closeNav()">&times;</a>
+    <h1 id = "big">Artificial Intelligence</h1>
+    <div class="overlaycontent">
+      <a href="index.html">HOME</a>
+      <a href="alexa.html">ALEXA</a>
+      <a href="siri.html">SIRI</a>
+      <a href="cortana.html">CORTANA</a>
+      <a href="#">HISTORY</a>
+    </div>
+  </div>
+
+
+  <section id = "a" class="panel">
+    <div class="lines">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+    <h1 class="title">Apple Siri</h1>
+    <p class="description"><br>Siri is an AI developed by Apple in 2011. Siri is a well know and very smart AI that is used across most of Apple's devices.</br> <br>Siri is a very well known AI as almost everyone has used an Apple device sometime in their life and has seen or used Siri.</br></p>
+  </section>
+
+
+  <section id = "b" class="panel">
+    <div class = "container">
+      <div id = "alexa" class = "box">
+        <h1>About</h1>
+        <p>Siri is one of the first AI that was ever made accessible to the people of the world, it jumpstarted the devolpment of AI from tons of Apple's competitors. Siri is capable of doing many things, she can play music, make phone calls, send text messages, read the weather, find reviews on movies, find the scores of sport matches, and even call you a nickname.</p>
+        <h2 class = "ilink">
+          <a href="https://www.apple.com/nz/siri/">Click here to learn more about Siri...</a>
+        </h2>
+        <img src="siri.png" alt="siri image">
+      </div>
+
+      <div id = "devices" class = "box">
+        <h1>Devices</h1>
+        <p>Siri started off in 2011 on the iPhone 4S as a flagship feature of the new phone. Since then, Siri has made it's way onto pretty much every other Apple device, such as the iPhone, iPad, iPod Touch, Apple Watch, Apple TV, Airpods, and the Apple Homepod. On more newer devices like the new Apple Watch, Siri can detect falls or irregular heart beats and contact emergency services which is amazing as it can literally save a life.</p>
+        <h2 class = "ilink">
+          <a href="https://support.apple.com/en-nz/HT204389">Click here to view devices that support Siri...</a>
+        </h2>
+        <img id = "img2" src="applehome.png" alt="alexa image">
+      </div>
+    </div>
+  </section>
+
+  <section id = "d" class = "contact">
+    <h1 class = "contact_header">CONTACT</h1>
+    <iframe id = "form" src="https://docs.google.com/forms/d/e/1FAIpQLSetiBL7zzIBk61r9zhRrY2mqTAyYtpi0NueJ4MALcoGG80I0w/viewform?embedded=true" width="540" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+  </section>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
+  <footer>
+		<p>&copy; Sam Clark 2020. All rights reserved</p>
+  </footer>
+
+
+</body>
+</html>

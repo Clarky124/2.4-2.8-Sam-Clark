@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylec.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <title>AI</title>
+</head>
+<body>
+
+
+  <div id = "myNav" class = "overlay">
+    <a href="javascript:void(0)" class = "closebutton" onclick = "closeNav()">&times;</a>
+    <h1 id = "big">Artificial Intelligence</h1>
+    <div class="overlaycontent">
+      <a href="index.html">HOME</a>
+      <a href="alexa.html">ALEXA</a>
+      <a href="siri.html">SIRI</a>
+      <a href="cortana.html">CORTANA</a>
+      <a href="#">HISTORY</a>
+    </div>
+  </div>
+
+
+  <section id = "a" class="panel">
+    <div class="lines">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+    <h1 class="title">Microsoft Cortana</h1>
+    <p class="description"><br>Cortana is an AI developed by Microsoft in 2014. It's an AI that is commonly used on Windows 10 devices to help users navigate the opperating system.</br> <br>Pretty much every Microsoft device user has at least heard of Cortana or used it. Many people do find Cortana to be slightly intrusive and annoying but it can be very useful for less experienced people trying to understand Windows 10.</br></p>
+  </section>
+
+
+  <section id = "b" class="panel">
+    <div class = "container">
+      <div id = "alexa" class = "box">
+        <h1>About</h1>
+        <p>Cortana was named after the Artificial Intelligence in the Microsoft game called 'Halo 4' on the Xbox 360. Cortana was Microsoft's way of keeping up with it's competitor, Apple, who had releaced Siri the year before. Cortana is known to be pretty good at answering questions and can be very useful when used correctly. Cortana is also entering the smart home industry and is being recieved quite positivly for it's performance.</p>
+        <h2 class = "ilink">
+          <a href="https://www.microsoft.com/en-us/cortana">Click here to learn more about Cortana...</a>
+        </h2>
+        <img src="cortana.png" alt="alexa image">
+      </div>
+
+      <div id = "devices" class = "box">
+        <h1>Devices</h1>
+        <p>Cortana started off in 2014 on Windows 10 computers and the now obsolete Windows phone. Since then, Cortana has made itself available on the Xbox One (Then removed in 2019), Apple and Android devices as an app, and some third party smart home systems. Over the last 18 months, Microsoft has changed their focus on Cortana to be a downloadable software on all devices instead of a software soley on Microsoft devices.</p>
+        <h2 class = "ilink">
+          <a href="https://blogs.windows.com/windowsexperience/2018/02/16/hey-cortana-turn-heat-cortana-now-works-smart-home-providers-ifttt/">Click here to view devices that support Cortana...</a>
+        </h2>
+        <img src="glass.png" alt="cortana image">
+      </div>
+    </div>
+  </section>
+
+  <section id = "d" class = "contact">
+    <h1 class = "contact_header">CONTACT</h1>
+    <iframe id = "form" src="https://docs.google.com/forms/d/e/1FAIpQLSetiBL7zzIBk61r9zhRrY2mqTAyYtpi0NueJ4MALcoGG80I0w/viewform?embedded=true" width="540" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+  </section>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
+  <footer>
+		<p>&copy; Sam Clark 2020. All rights reserved</p>
+  </footer>
+
+
+</body>
+</html>
