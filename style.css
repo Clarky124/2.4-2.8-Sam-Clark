@@ -103,6 +103,7 @@ span:hover {
   padding-top: 20px;
 }
 
+
 #b {
   color: white;
   height: 115vh;
@@ -166,32 +167,25 @@ a {
   background-position: center;
   background-size: cover;
   color: black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#empty {
+  width: 70%;
+  float: left;
+}
+
+#thecontent {
+  float:right;
+  width:30%;
+  padding:50px;
+  padding-top: 150px;
+  text-align:center;
 }
 
 .history {
-  position: absolute;
-  right: 0;
-  padding-top: 200px;
-  padding-right: 50px;
-}
-
-.explain {
-  position: absolute;
-  right: 0;
-  padding-top: 240px;
-  text-align: right;
-  width: 400px;
-  padding-right: 50px;
-}
-
-.hlink {
-  text-decoration: none;
-  position: absolute;
-  right: 0;
-  padding-top: 400px;
-  text-align: right;
-  width: 400px;
-  padding-right: 50px;
+  font-size: 35px;
 }
 
 .contact {
@@ -203,8 +197,6 @@ a {
   color: dodgerblue;
   font-size: 50px;
 }
-
-
 
 footer {
   background-color: dodgerblue;
@@ -231,19 +223,10 @@ footer {
 }
 
 @media only screen and (max-width: 1200px) {
-  .explain {
-    width: 200px;
-  }
-  .hink {
-    padding-top: 1200px;
-  }
   .contact{
     padding: 50px;
   }
   #big {
-    padding-top: 75px;
-  }
-  .title {
     padding-top: 75px;
   }
 }
@@ -254,36 +237,37 @@ footer {
   }
   #c {
     background-image: none;
-    background-color: white;
+    background-color: #ededed;
+  }
+  #thecontent {
+    padding: 10px;
+    padding-top: 100px;
+    width: 97%;
+    float: none;
+    text-align-last: center;
+  }
+  #empty {
+    width: 0%;
   }
 
   .history {
-    text-align: center;
-    padding-top: 200px;
-    padding-right: 0px;
-    padding-left: 0px;
-    left: 0;
-    right: 0;
-
+    font-size: 50px;
   }
 
-  .explain {
-    text-align: center;
-    padding-top: 400px;
-    padding-right: 0px;
-    padding-left: 0px;
-    left: auto;
-    right: auto;
+  .explain , .hlink{
+    font-size: 20px;
   }
 
   .hlink {
-    text-decoration: none;
-    text-align: center;
-    padding-top: 800px;
-    padding-right: 0px;
-    padding-left: 0px;
-    left: auto;
-    right: auto;
-    color: black;
+    padding-top: 100px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 100px;
+    background-color: black;
+  }
+
+  .hlink:hover {
+    background-color: dodgerblue;
+    transition: 1s;
   }
 }
